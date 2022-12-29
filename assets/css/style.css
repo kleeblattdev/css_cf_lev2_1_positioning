@@ -1,0 +1,72 @@
+/* Color palette 
+#dbddc3, #14140f, #680507, #b18772, #e8652e, #c9c1a9, #5a5a53, #81826c
+*/
+
+/* font-family
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+ */
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+/* GLOBAL STYLE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+
+/* MAIN STYLE */
+
+main{
+    background-color: rgb(234, 236, 222);
+    color: #14140f;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    width: 290px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    background-color: #e8652e;
+    padding: 20px 100px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #14140f;
+}
+
+img{
+    width:50vw;
+}
